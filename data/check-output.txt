@@ -1,0 +1,36 @@
+source totals: {'run': 118, 'msg': 223, 'boyd': 113, 'tool': 3538, 'output': 86}
+event types not counted (none expected): []
+PASS every event type in fleet.json is counted in one of the five counters
+PASS on-screen counts match fleet.json at every one of 1837 counter frames
+PASS end card totals equal source totals (120 frames)
+PASS every source event triggers exactly once on screen
+PASS sim clock never runs backwards
+PASS time-lapse covers the first and last recorded event
+PASS 17 labelled jumps contain 0 recorded events
+PASS no money routine names baked (11 labels: ['Char weeknight homework check-in', 'Daily podcast listen brief', 'Jim daily interest note', 'Morning Boyd Family Times', 'Morning attention brief', 'Vic weeknight homework check-in', 'Weekday family calendar scan', 'Weekly idea digest', 'routine run', 'routine-healthcheck', 'transcript-healthcheck'])
+PASS baked events carry only who/when/kind/routine name (['approx', 'bot', 'end', 'from', 'k', 'label', 't'])
+   OCR frame    84 (main): read [0, 0, 0, 0, 0] expected [0, 0, 0, 0, 0] ok
+   OCR frame   216 (main): read [5, 72, 19, 466, 0] expected [5, 72, 19, 466, 0] ok
+   OCR frame   348 (main): read [14, 98, 39, 713, 0] expected [14, 98, 39, 713, 0] ok
+   OCR frame   480 (main): read [25, 116, 42, 1088, 0] expected [25, 116, 42, 1088, 0] ok
+   OCR frame   612 (main): read [38, 120, 44, 1296, 0] expected [38, 120, 44, 1296, 0] ok
+   OCR frame   744 (main): read [50, 123, 50, 1507, 0] expected [50, 123, 50, 1507, 0] ok
+   OCR frame   876 (main): read [64, 136, 65, 1867, 0] expected [64, 136, 65, 1867, 0] ok
+   OCR frame  1008 (main): read [75, 170, 90, 2278, 0] expected [75, 170, 90, 2278, 0] ok
+   OCR frame  1140 (main): read [91, 195, 97, 2781, 0] expected [91, 195, 97, 2781, 0] ok
+   OCR frame  1272 (main): read [110, 205, 104, 3258, 2] expected [110, 205, 104, 3258, 2] ok
+   OCR frame  1404 (main): read [118, 223, 113, 3538, 6] expected [118, 223, 113, 3538, 6] ok
+   OCR frame  1536 (main): read [118, 223, 113, 3538, 16] expected [118, 223, 113, 3538, 16] ok
+   OCR frame  1668 (main): read [118, 223, 113, 3538, 26] expected [118, 223, 113, 3538, 26] ok
+   OCR frame  1800 (main): read [118, 223, 113, 3538, 86] expected [118, 223, 113, 3538, 86] ok
+   OCR frame  1801 (end): read [118, 223, 113, 3538, 86] expected [118, 223, 113, 3538, 86] ok
+PASS OCR of the on-screen counter panel: 15/15 sampled frames read back exactly; 0 numbers read differently from the source, 0 unreadable
+PASS MP4 is 1280x720
+PASS MP4 duration 80.04 s
+PASS MP4 size 17.21 MB
+PASS MP4 has 1921 frames = 1921 rendered
+PASS MP4 has the synthesized soundtrack
+PASS GIF size 10.45 MB
+
+Totals shown on screen at the end: run=118, msg=223, boyd=113, tool=3,538, output=86
+ALL CHECKS PASSED
