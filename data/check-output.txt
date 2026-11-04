@@ -7,7 +7,7 @@ PASS every source event triggers exactly once on screen
 PASS sim clock never runs backwards
 PASS time-lapse covers the first and last recorded event
 PASS 17 labelled jumps contain 0 recorded events
-PASS no money routine names baked (11 labels: ['Char weeknight homework check-in', 'Daily podcast listen brief', 'Jim daily interest note', 'Morning Boyd Family Times', 'Morning attention brief', 'Vic weeknight homework check-in', 'Weekday family calendar scan', 'Weekly idea digest', 'routine run', 'routine-healthcheck', 'transcript-healthcheck'])
+PASS no money routine names baked (11 labels: ['Alex weeknight homework check-in', 'Daily podcast listen brief', 'Jim daily interest note', 'Morning Boyd Family Times', 'Morning attention brief', 'Sam weeknight homework check-in', 'Weekday family calendar scan', 'Weekly idea digest', 'routine run', 'routine-healthcheck', 'transcript-healthcheck'])
 PASS baked events carry only who/when/kind/routine name (['approx', 'bot', 'end', 'from', 'k', 'label', 't'])
    OCR frame    84 (main): read [0, 0, 0, 0, 0] expected [0, 0, 0, 0, 0] ok
    OCR frame   216 (main): read [5, 72, 19, 466, 0] expected [5, 72, 19, 466, 0] ok
